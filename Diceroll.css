@@ -1,0 +1,50 @@
+body{
+    background-color: gray;
+}
+h1{
+    font-size:100px;
+    
+}
+.box{
+    text-align: center;
+    color: aquamarine;
+    font-family:cursive;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Player{
+    font-size: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    
+    text-align:right;
+    position: absolute;
+    top:90%;
+    left: 80%;
+
+}
+img{
+    width: 150px;
+    height: 150px;
+    box-shadow: 35px 30px 35px 20px rgba(0, 0, 0, 0.2);
+}
+.image{
+    position: absolute
+
+}
+#Button1{
+    position: absolute;
+margin-top: 150px;
+background-color: cornflowerblue
+;
+font-weight: 300;
+font-family:"Brush Script MT", cursive;
+color: aliceblue;
+    font-size: 40px;
+    transform: translate(-30%);
+}
